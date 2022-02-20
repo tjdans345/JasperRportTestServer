@@ -4,6 +4,13 @@ plugins {
     id 'java'
 }
 
+allprojects {
+    repositories {
+        google()
+        maven  { url 'https://jitpack.io' }
+    }
+}
+
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
@@ -26,6 +33,8 @@ dependencies {
     runtimeOnly 'mysql:mysql-connector-java'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation group: 'com.lowagie', name: 'itext', version: '2.1.7'
+    implementation group: 'net.sf.jasperreports', name: 'jasperreports', version: '6.16.0'
 }
 
 tasks.named('test') {
