@@ -25,7 +25,7 @@ public class JasperService {
         var path = "C:\\Users\\user\\Desktop\\reporttest";
         var userList = memberRepository.findAll();
         // load file and compile it
-        File file = ResourceUtils.getFile("classpath:firstTest.jrxml"); // 이 파일안에 데이터가 어떻게 매핑되는지를 먼저 파악하기
+        File file = ResourceUtils.getFile("classpath:userReport.jrxml"); // 이 파일안에 데이터가 어떻게 매핑되는지를 먼저 파악하기
 
         JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(userList);
         JasperReport jasperReport = JasperCompileManager.compileReport(file.getAbsolutePath());
@@ -35,11 +35,11 @@ public class JasperService {
 
         // equalsIgnoreCase 대소문자 구분없이 비교함
         if (reportFormat.equalsIgnoreCase("html")) {
-            JasperExportManager.exportReportToHtmlFile(report, path+"\\members.html");
+            JasperExportManager.exportReportToHtmlFile(report, path+"\\userReport.html");
         }
 
         if (reportFormat.equalsIgnoreCase("pdf")) {
-            JasperExportManager.exportReportToPdfFile(report, path+"\\members.pdf");
+            JasperExportManager.exportReportToPdfFile(report, path+"\\userReport.pdf");
         }
 
         return "report generated in path : " + path;
