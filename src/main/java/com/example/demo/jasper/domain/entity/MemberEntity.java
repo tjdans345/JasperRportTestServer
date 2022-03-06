@@ -22,4 +22,6 @@ public class MemberEntity {
 
     private String phone;
 
+    private String address;
+
 }

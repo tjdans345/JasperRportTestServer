@@ -31,7 +31,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="40"/>
 				</textElement>
-				<text><![CDATA[User Report]]></text>
+				<text><![CDATA[유저]]></text>
 			</staticText>
 			<image>
 				<reportElement x="461" y="10" width="94" height="69" uuid="da34127b-a78c-4028-997a-0c6bcd205629"/>
@@ -50,6 +50,12 @@
 		<band height="39" splitType="Stretch">
 			<staticText>
 				<reportElement x="2" y="2" width="100" height="30" uuid="2beda070-e3f3-4de0-8352-f9170219d2d8"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="14" isBold="true"/>
 				</textElement>
@@ -57,6 +63,12 @@
 			</staticText>
 			<staticText>
 				<reportElement x="106" y="3" width="100" height="30" uuid="100af698-9df4-4f35-81e6-b6e4e6951185"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="14" isBold="true"/>
 				</textElement>
@@ -64,6 +76,12 @@
 			</staticText>
 			<staticText>
 				<reportElement x="211" y="4" width="100" height="30" uuid="544ce3a7-a6f7-498f-80e2-477deec11bdd"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="14" isBold="true"/>
 				</textElement>
@@ -71,6 +89,12 @@
 			</staticText>
 			<staticText>
 				<reportElement x="316" y="4" width="100" height="30" uuid="9e9ab6a5-4a53-4d46-bada-86cf96a02fac"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="14" isBold="true"/>
 				</textElement>
@@ -78,6 +102,12 @@
 			</staticText>
 			<staticText>
 				<reportElement x="422" y="4" width="100" height="30" uuid="19f35e04-5495-4c52-a4cd-e7fa5f7b478b"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="14" isBold="true"/>
 				</textElement>
@@ -89,6 +119,12 @@
 		<band height="125" splitType="Stretch">
 			<textField>
 				<reportElement x="2" y="0" width="100" height="30" uuid="fc7c505c-988c-4404-9021-033317773bca"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="12"/>
 				</textElement>
@@ -96,6 +132,12 @@
 			</textField>
 			<textField>
 				<reportElement x="106" y="0" width="100" height="30" uuid="3d78f37e-1e68-406e-a692-8b1559e3a9db"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="12"/>
 				</textElement>
@@ -103,6 +145,12 @@
 			</textField>
 			<textField>
 				<reportElement x="210" y="0" width="100" height="30" uuid="255be999-9b06-4d27-ab41-65ff20e14b1d"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="12"/>
 				</textElement>
@@ -110,6 +158,12 @@
 			</textField>
 			<textField>
 				<reportElement x="316" y="0" width="100" height="30" uuid="6aa3cb91-d503-4e39-9274-71864941e45e"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="12"/>
 				</textElement>
@@ -117,6 +171,12 @@
 			</textField>
 			<textField>
 				<reportElement x="422" y="0" width="100" height="30" uuid="07b64322-14a3-42f9-a355-04fab2966b6a"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="12"/>
 				</textElement>
