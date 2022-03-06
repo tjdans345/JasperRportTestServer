@@ -25,7 +25,7 @@ public class JasperService {
         var path = "C:\\Users\\user\\Desktop\\reporttest";
         var members = memberRepository.findAll();
         // load file and compile it
-        File file = ResourceUtils.getFile("classpath:members.jrxml"); // 이 파일안에 데이터가 어떻게 매핑되는지를 먼저 파악하기
+        File file = ResourceUtils.getFile("classpath:firstTest.jrxml"); // 이 파일안에 데이터가 어떻게 매핑되는지를 먼저 파악하기
 
         JasperReport jasperReport = JasperCompileManager.compileReport(file.getAbsolutePath());
         JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(members);
