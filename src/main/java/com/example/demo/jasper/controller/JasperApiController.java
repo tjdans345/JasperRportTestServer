@@ -4,10 +4,7 @@ import com.example.demo.jasper.domain.entity.MemberEntity;
 import com.example.demo.jasper.service.JasperService;
 import lombok.RequiredArgsConstructor;
 import net.sf.jasperreports.engine.JRException;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.FileNotFoundException;
 import java.util.List;
@@ -25,8 +22,8 @@ public class JasperApiController {
     }
 
     @GetMapping("/{format}")
-    public String generateReport(@PathVariable String format) throws JRException, FileNotFoundException {
-       return jasperService.exportReport(format);
+    public String generateReport(@PathVariable String format, @RequestParam("title") String title) throws JRException, FileNotFoundException {
+       return jasperService.exportReport(format, title);
     }
 
 }

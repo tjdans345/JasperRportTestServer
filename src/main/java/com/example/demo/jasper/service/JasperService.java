@@ -21,7 +21,7 @@ public class JasperService {
 
     private final MemberRepository memberRepository;
 
-    public String exportReport(String reportFormat) throws JRException, FileNotFoundException {
+    public String exportReport(String reportFormat, String title) throws JRException, FileNotFoundException {
         var path = "C:\\Users\\user\\Desktop\\reporttest";
         var userList = memberRepository.findAll();
         // load file and compile it
@@ -30,7 +30,7 @@ public class JasperService {
         JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(userList);
         JasperReport jasperReport = JasperCompileManager.compileReport(file.getAbsolutePath());
         Map<String, Object> parameters = new HashMap<>();
-        parameters.put("createdBy", "Java Meteor");
+        parameters.put("title", title);
         JasperPrint report = JasperFillManager.fillReport(jasperReport, parameters , dataSource);
 
         // equalsIgnoreCase 대소문자 구분없이 비교함
